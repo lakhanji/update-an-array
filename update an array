@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void update(int arr[],int n){
+    cout<<"after upadte = ";
+    arr[2]=120;
+    for(int i=0;i<4;i++ ){
+    cout<<arr[i]<<" ";
+    }
+}
+int main(){
+int arr[4]= {1,2,4,3};
+cout<<"befor update = ";
+for(int i=0;i<4;i++ ){
+    cout<<arr[i]<<" ";
+}
+update(arr,4);
+
+
+
+
+return 0;
+}
